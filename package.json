@@ -1,7 +1,7 @@
 {
   "name": "nexus-github-desktop-monkey",
   "version": "1.0.0",
-  "description": "A developer template to create a module using vanilla TS and HTML for Nexus.",
+  "description": "'Embedding' GitHub Desktop as a Nexus module. By monkeying it around.",
   "author": "aarontburn",
   "scripts": {
     "postinstall": "npm install https://gitpkg.vercel.app/aarontburn/nexus-core/nexus/dist?main --no-save",

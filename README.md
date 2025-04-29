@@ -1,15 +1,15 @@
-# [Nexus](https://github.com/aarontburn/nexus-core): Spotify Monkey
+# [Nexus](https://github.com/aarontburn/nexus-core): GitHub Desktop Monkey
 
-  <img src="./src/assets/icon.png" alt="Discord Monkey Icon" width="200"/>
+  <img src="./src/assets/icon.png" alt="GitHub Desktop Monkey Icon" width="200"/>
 
-A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" Spotify as a Nexus module...
+A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" GitHub Desktop as a Nexus module...
 
-And by "embed", this just takes your Spotify window and monkeys it around.
+And by "embed", this just takes your GitHub Desktop window and monkeys it around.
 
 
 
 <p align="center">
-  <img src="./assets/sample-image.png" alt="Spotify Monkey Sample" width="1000"/>
+  <img src="./assets/image.png" alt="GitHub Desktop Monkey Sample" width="1000"/>
 
 </p>
 
@@ -20,8 +20,7 @@ You will need the following modules installed into Nexus.
 
 ### Application Dependencies
 The following applications need to be installed to your computer.
-- [**Spotify**](https://open.spotify.com/download)
-  - Download using the Spotify Installer executable; Spotify from the Microsoft Store will prevent you from accessing its executable path which prevents Spotify Monkey from creating new instances of it.
+- [**GitHub Desktop**](https://github.com/apps/desktop)
 
 ## Installation
 1. Download and install all dependencies.
@@ -31,12 +30,9 @@ The following applications need to be installed to your computer.
 
 
 ## Usage
-- On startup (or when the `Locate window` button is pressed), Spotify Monkey will look for your open Spotify window, and, if found within 10 seconds, will start monkeying the window into Nexus.
-- By providing a path to your Spotify executable in the Settings, you unlock the following features:
-  -  Opening the Spotify app while it's already embedded into Nexus will swap to the Spotify Monkey module.
-  -  The `Locate window` button will start a new instance of Spotify if one isn't found.
+- On startup (or when the `Locate window` button is pressed), GitHub Desktop Monkey will look for your open GitHub Desktop window, and, if found within 10 seconds, will start monkeying the window into Nexus.
+- By providing a path to your GitHub Desktop executable in the Settings, you unlock the following features:
+  -  Opening the GitHub Desktop app while it's already embedded into Nexus will swap to the GitHub Desktop module.
+  -  The `Locate window` button will start a new instance of GitHub Desktop if one isn't found.
 
 
-
-## Limitations:
-- Some features won't work with Spotify downloaded from the Microsoft Store.
