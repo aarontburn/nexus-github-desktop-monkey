@@ -1,15 +1,21 @@
 {
     "name": "GitHub Desktop Monkey",
     "id": "aarontburn.GitHub_Desktop_Monkey",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "aarontburn",
     "description": "'Embedding' GitHub Desktop as a Nexus module. By monkeying it around.",
     "platforms": [],
     "link": "https://github.com/aarontburn/nexus-github-desktop-monkey",
+    "git-latest": {
+        "git-username": "aarontburn",
+        "git-repo-name": "nexus-github-desktop-monkey"
+    },
     "build": {
         "build-version": 6,
         "process": "./process/main.js",
-        "excluded": ["electron.ts"],
+        "excluded": [
+            "electron.ts"
+        ],
         "included": [],
         "replace": [
             {
